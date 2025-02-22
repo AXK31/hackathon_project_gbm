@@ -102,16 +102,7 @@ const Navbar = () => {
           )}
         </div>
         <Link href="/about"><span className="hover:text-blue-400 cursor-pointer">About</span></Link>
-        <Link href="/login">
-          <Button variant="outline" className="text-black border-blue-400 bg-white hover:bg-blue-100 hover:text-blue-600">
-            Login
-          </Button>
-        </Link>
-        <Link href="/register">
-          <Button variant="outline" className="text-black border-blue-400 bg-white hover:bg-blue-100 hover:text-blue-600">
-            Register
-          </Button>
-        </Link>
+       
       </div>
     </nav>
   );
@@ -121,7 +112,7 @@ const SparklesPreview = () => {
   return (
     <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
-        MedicAi
+        MedicAI
       </h1>
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}
